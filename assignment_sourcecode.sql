@@ -1,7 +1,7 @@
 /* ------------------------- STEP 1 ------------------------- */
 
 -- Create a role "ADMIN" and Grant the role to "ACCOUNTADMIN"
-create or replace ADMIN;
+create or replace role ADMIN;
 grant role ADMIN to role ACCOUNTADMIN;
 
 -- Create a role "DEVELOPER" and Grant the role to "ADMIN"
